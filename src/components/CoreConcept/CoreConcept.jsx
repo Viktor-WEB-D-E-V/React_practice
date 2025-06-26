@@ -1,3 +1,5 @@
+import './CoreConcept.css'
+
 function CoreConcept({ img, title, desc }) {
   return (
     <li>

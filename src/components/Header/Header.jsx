@@ -1,12 +1,11 @@
-import reactImg from "../assets/react-core-concepts.png";
+import reactImg from "../../assets/react-core-concepts.png";
+import "./Header.css";
 
 const reactDescriptions = ["Fundamental", "Crucial", "Core"];
 
 function genRandom(max) {
   return Math.floor(Math.random() * (max + 1));
 }
-
-
 
 function Header() {
   return (
